@@ -1,0 +1,32 @@
+{
+  "main": {
+    "1": {
+      "verbiage": "For sales press 1",
+      "action": "/get_menu?menu=sales"
+    },
+    "2": {
+      "verbiage": "For tech support press 2",
+      "action": "/get_menu?menu=tech"
+    }
+  },
+  "sales": {
+    "1": {
+      "verbiage": "For partners, press 1",
+      "action": "/get_voicemail?group=sale_partners"
+    },
+    "2": {
+      "verbiage": "For assistance with a purchase, press 2",
+      "action": "/get_voicemail?group=sale_support"
+    }
+  },
+  "tech": {
+    "1": {
+      "verbiage": "For issues with your internet, press 1",
+      "action": "/get_voicemail?group=internet_support"
+    },
+    "2": {
+      "verbiage": "For issues with your cell phone, press 2",
+      "action": "/get_voicemail?group=mobile_support"
+    }
+  }
+}
